@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".List_Activity"
+    android:background="@mipmap/back"
+    android:id="@+id/layout_id">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textColor="#000000"
+            android:background="#FFFFFF"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:paddingTop="2dp"
+            android:paddingBottom="2dp"
+            android:id="@+id/username"/>
+
+    <Button
+        android:id="@+id/attendance_btn"
+        android:text="ATTENDANCE"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:id="@+id/bunk_effect_btn"
+        android:text="MISS EFFECT"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/attendance_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/attend_effect_btn"
+        android:text="ATTEND EFFECT"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/bunk_effect_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/reminders_btn"
+        android:text="REMINDERS"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/attend_effect_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/change_timetable"
+        android:text="CHANGE TIME TABLE"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/reminders_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/new_attendance_btn"
+            android:text="PREFERENCES"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/listshape"
+            android:shadowColor="#000000"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_below="@+id/setup_timetable_btn"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/about_btn"
+        android:text="ABOUT"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/listshape"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_below="@+id/new_attendance_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+    </ScrollView>
+
+    </RelativeLayout>

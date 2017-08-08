@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/back"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:id="@+id/username" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="∞CONGRATULATIONS∞"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:id="@+id/start_date"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.30" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_set"
+        android:id="@+id/details2"
+        android:text="You have successfully filled your time table...You can also make changes to the time table later"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:layout_weight="0.35" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:id="@+id/details3"
+        android:text="Just one more step...you can continue by clicking SETUP ATTENDANCE below"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:paddingTop="50dp"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        android:layout_weight="0.35" />
+
+    <Button
+        android:id="@+id/setup_lectures"
+        android:text="setup attendance"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+
+
+</LinearLayout>

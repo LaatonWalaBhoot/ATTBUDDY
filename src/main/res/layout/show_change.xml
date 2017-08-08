@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#d3d3d3"
+    android:paddingStart="10dp"
+    android:paddingTop="10dp"
+    android:paddingEnd="10dp">
+
+    <TextView
+        android:id="@+id/sub_name"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_marginRight="30dp"
+        android:layout_alignParentLeft="true">
+    </TextView>
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:id="@+id/attend"
+        android:inputType="number|textNoSuggestions|textVisiblePassword"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/total"
+        android:layout_toLeftOf="@+id/arrow"
+        android:layout_toStartOf="@+id/arrow" />
+
+    <TextView
+        android:id="@+id/arrow"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:layout_alignTop="@+id/total"
+        android:layout_toLeftOf="@+id/total"
+        android:text=" --->">
+    </TextView>
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:paddingLeft="5dp"
+        android:background="@drawable/rounded_edittext"
+        android:maxLength="6"
+        android:layout_alignParentRight="true"
+        android:id="@+id/total"
+        android:layout_centerVertical="true"
+        android:inputType="number|textNoSuggestions|textVisiblePassword"
+        android:textColor="#000000" />
+</RelativeLayout>

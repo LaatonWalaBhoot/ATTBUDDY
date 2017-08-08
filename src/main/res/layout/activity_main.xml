@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="home.attbuddy.MainActivity"
+    android:background="@mipmap/back">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="∞WELCOME∞"
+        android:textSize="50dp"
+        android:textColor="#fefcfc"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="192dp"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/freshstart_btn"
+        android:text="FRESH START"
+        android:textColor="#FFF7F9"
+        android:textSize="30sp"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:textColor="#454545"
+        android:textSize="30sp"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape2"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_above="@+id/freshstart_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
